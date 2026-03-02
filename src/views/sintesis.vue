@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src='@/assets/template/sintesis/s-1.svg', alt='alt')
+          img(src='@/assets/template/sintesis/s-1.svg', alt='Funcionamiento de servidores y servicios: 1. Pruebas de servicios. 2. Gestión de redundancias y alta disponibilidad. 3. Cálculo de nivel de servicios. 4. Mantenimiento predictivo. 5. Identificación de fallas.')
       .col-lg-3
         a.anexo.mb-4(
           :href='obtenerLink("/downloads/sintesis.pdf")',

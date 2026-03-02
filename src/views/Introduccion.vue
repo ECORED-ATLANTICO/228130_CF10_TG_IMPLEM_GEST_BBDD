@@ -20,7 +20,7 @@
 
     .col-lg-12
       figure
-        .video
+        .video.mb-2
           iframe(
             width='560',
             height='315',
@@ -30,6 +30,7 @@
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
             allowfullscreen
           )
+        figcaption Video: Funcionamiento de servidores y servicios
 </template>
 
 <script>

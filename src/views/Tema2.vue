@@ -68,7 +68,7 @@
         p Este funciona en respuesta de una falla en la infraestructura, conceptualmente su funcionamiento es simple, este necesita de un
           em software
           | y múltiples configuraciones por expertos en el tema.
-        p Se debe desarrollar configuraciones en sistemas que tienen procesos robustos, para así minimizar tiempos de inactividades; a menudo esta es una prioridad alta, ya que a pesar de que se tengan software y sistemas confiables se pueden tener problemas que puedan derribar la infraestructura tecnológica, es por esto, la importancia de la alta disponibilidad ya que debe permitir una estrategia fiable y así reducir los tiempos de fallos, los sistemas de alta disponibilidad pueden recuperarse de sus fallas en su infraestructura automáticamente.
+        p Se debe desarrollar configuraciones en sistemas que tienen procesos robustos, para así minimizar tiempos de inactividades; a menudo esta es una prioridad alta, ya que a pesar de que se tengan #[em software] y sistemas confiables se pueden tener problemas que puedan derribar la infraestructura tecnológica, es por esto, la importancia de la alta disponibilidad ya que debe permitir una estrategia fiable y así reducir los tiempos de fallos, los sistemas de alta disponibilidad pueden recuperarse de sus fallas en su infraestructura automáticamente.
     .row.d-flex.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido-2.p-4
@@ -76,7 +76,7 @@
 
     p.mb-5 Se explica a continuación cada una de las piezas y componentes de la configuración de la alta disponibilidad.
 
-    .tarjeta.tarjeta--acento-botones.p-4.mb-5
+    .tarjeta.tarjeta--acento-botones.p-5.mb-5
       SlyderA(tipo='b')
         .row
           .col-md-7.mb-4.mb-md-0
@@ -86,7 +86,7 @@
               br
               |Una opción excelente para construir un sistema altamente fiable y disponible es utilizar sistemas de archivos #[em GlusterFs], ya que este maneja la monitorización y la conmutación por errores de forma predeterminada, este sistema de archivos es multiescalable, permite agregar varios servidores de archivos sobre ethernet.
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema02/t2-i2.png',
@@ -100,7 +100,7 @@
               br
               |Los nodos de las DB son un grupo de servidores XtraBD para la utilización de Galera de replicación; Galera ofrece replicación sincrónica, lo que garantiza que los datos se escriben en los nodos de la base de datos secundaria y, al mismo tiempo, se hace la replicación en la base de datos primaria; este método proporciona una óptima redundancia al clúster de la base de datos, porque evita periodos de tiempo en los que los nodos de la base de datos no se encuentran en estados coincidentes. Galera también brinda replicación multimaestro, lo que permite que cualquiera de los nodos puedan responder a las consultas de los clientes. (Abad A, 2018)
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema02/t2-i3.png',
@@ -114,7 +114,7 @@
               i software.
             p La comunicación con el servidor Apache con los nodos de las bases de datos funciona de manera similar, debido a que el clúster de las bases de datos tiene múltiples maestros, cualquiera de las bases de datos puede responder a las peticiones y consultas de Apache, ya que permite replicación sincrónica, cuando Apache escribe en una base de datos, las demás se actualizarán en tiempo real para atender solicitudes de cualquiera de los otros servidores Apache.
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema02/t2-i4.png',
@@ -131,7 +131,7 @@
               br
               |Este servicio utiliza reglas definidas por el usuario para monitorear un cierto número de fallas por parte de un nodo de la base de datos. Cuando se alcanza el límite de fallas, #[em keepalived] asigna IP de conmutación por error a un nodo diferente para que no se interrumpa el cumplimiento de las solicitudes.
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema02/t2-i5.png',
@@ -242,7 +242,7 @@
       | La alta disponibilidad reduce la incidencia de fallos
 
     .row.mb-5
-      .col-lg-4.col-2
+      .col-lg-4.col-12
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema02/t2-i8.png')
       .col-lg-8.col-10

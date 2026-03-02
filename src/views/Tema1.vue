@@ -328,7 +328,7 @@
             )
       .row(titulo='Protocolo POP 3 o <em>Post Office Protocol 3</em>')
         .col-md-8.mb-4.mb-md-0
-          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envío de mensajes y se puede utilizar para los clientes pesados genéricos; los dispositivos móviles no sincronizados vía ActiveSync y Outlook, permiten a los usuarios recuperar sus mensajes desde su buzón de mensajes y no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra, moviendo el correo hacia el cliente. (Sánchez et al, 2020)
+          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envío de mensajes y se puede utilizar para los clientes pesados genéricos; los dispositivos móviles no sincronizados vía <em>ActiveSync</em> y <em>Outlook</em>, permiten a los usuarios recuperar sus mensajes desde su buzón de mensajes y no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra, moviendo el correo hacia el cliente. (Sánchez et al, 2020)
         .col-md-4
           figure
             img(
@@ -443,7 +443,7 @@
 
     p Protocolo de oficina de correo, se utiliza para obtener mensajes de correo electrónico de clientes locales.
     br
-    p.mb-5 Para configurar e implementar cuentas con el protocolo POP3 en Outlook debemos hacer los siguientes pasos:
+    p.mb-5 Para configurar e implementar cuentas con el protocolo POP3 en <em>Outlook</em> debemos hacer los siguientes pasos:
 
     .row.justify-content-center.mb-5
       .col-8.col-lg-4
@@ -451,9 +451,9 @@
           img(src='@/assets/template/tema01/t1-i19.png', alt='alt')
       .col-lg-8
         LineaTiempoD.color-acento-botones
-          p(numero='1', titulo='Outlook') Tener instalado en el sistema operativo la aplicación de Outlook.
+          p(numero='1', titulo='Outlook') Tener instalado en el sistema operativo la aplicación de <em>Outlook</em>.
 
-          p(numero='2', titulo='Seleccionar pestaña archivo') Abrir la aplicación de correo Outlook y seleccionar la pestaña archivo en la barra de herramientas.
+          p(numero='2', titulo='Seleccionar pestaña archivo') Abrir la aplicación de correo <em>Outlook</em> y seleccionar la pestaña archivo en la barra de herramientas.
 
           p(numero='3', titulo='Agregar cuentas') Encima del botón configuración, hacer clic en agregar cuentas.
 

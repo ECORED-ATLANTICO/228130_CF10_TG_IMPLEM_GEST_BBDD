@@ -28,18 +28,15 @@ export default {
     menu: [
       {
         nombreRuta: 'inicio',
-        icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Pruebas de servicios de red',
         desarrolloContenidos: true,
@@ -47,21 +44,18 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Gestión de redundancia y alta disponibilidad',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Cálculo de nivel de servicios',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Mantenimiento predictivo e identificación de fallas',
         desarrolloContenidos: true,
@@ -85,11 +79,13 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
+      /*
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
       },
+      */
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -196,50 +192,45 @@ export default {
     {
       referencia:
         'Abad, A (2018). <em>Seguridad y alta disponibilidad.</em> España: España, 2018.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_alfaomega53992',
+      link: 'https://www.garceta.es/catalogo/libro.php?ISBN=978-84-1728-930-0',
     },
     {
       referencia:
         'Luna, M, & Vázquez, G. (2019). Metodología de mantenimiento predictivo 4.0 para asegurar procesos de producción. <em>Revista de sistemas, cibernética e informática, 16(2)</em>, p. 1-6. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_3d32305d26684f2b96a4a784aeec34c9',
+      link: '',
     },
     {
       referencia:
         'Mago, M. & Rocha, S. (2021). Diseño e implementación del plan de mantenimiento preventivo de los equipos de la empresa granitos y mármoles acabados SAS. <em>Revista ciencia y poder aéreo, 16(2).</em> ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_0ea47d3304b145a19f98fa78130dfc3c',
+      link: 'https://www.redalyc.org/journal/6735/673571919007/html/',
     },
     {
       referencia:
         'Marchand, W. & Vega, E. (2020). Modelo Balanced Scorecard para los controles críticos de seguridad informática según el Center for Internet Security (CIS). <em>Interfases, 13</em>, p. 57-76. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_ad14fe07a9314dc6909fd55054d8316a',
+        'https://revistas.ulima.edu.pe/index.php/Interfases/article/view/4876',
     },
     {
       referencia:
         'Montoya, M., Arango, J., & Rosero, S. (2020). Programación de mantenimiento preventivo usando algoritmos genéticos. <em>Lampsakos, 23</em>, p. 37-44.  ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_a13fb336c47f44ddbd252db37e41e1b1',
+      link: 'https://www.redalyc.org/journal/6139/613964510003/html/',
     },
     {
       referencia:
         'Philippe, F. (2010). <em>Windows Server 2008 : Los servicios de Red TCP/IP.</em> Barcelona: Ediciones ENI. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP',
+        'https://www.casadellibro.com.co/libro-windows-server-2008-los-servicios-de-red-tcpip/9782746056473/1775032',
     },
     {
       referencia:
         'Sánchez, M., Plata, R., & Martínez, J. (2020). <em>Redes de computadores.</em> Universidad de Alcalá, servicio de publicaciones.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB131606',
+        'https://publicaciones.uah.es/.galleries/Galeria-Servicio-de-Publicaciones/PDFs-Novedades/redes-.pdf',
     },
     {
       referencia:
         'Sinisterra, M., Diaz, T. y Ruiz, E. (2012). Clúster de balanceo de carga y alta disponibilidad para servicios web y Mail. <em>Informador Técnico, 76</em>(76), p. 93-102. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b8084052896547348e30a7ffb4dec865',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/4364562.pdf',
     },
   ],
   creditos: {

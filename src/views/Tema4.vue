@@ -76,7 +76,7 @@
             p Reduce la cantidad de averías no planificadas, por lo tanto, el tiempo de indisponibilidad.
 
     .row.mb-5
-      .col-lg-4.col-2
+      .col-lg-4.col-10
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema04/t4-i6.png')
       .col-lg-8.col-10
@@ -94,7 +94,7 @@
             p.mb-3 Hay usuarios que afirman que se necesita la disponibilidad del equipo, así como se necesita la seguridad, ya que es indispensable un equipo que esté fuera de servicio. Hay varios medios para lograrlo, y uno es construir los equipos extremadamente fiables y consecuentemente, de mayor valor. El segundo es suministrar un sistema que, aunque falle, sea fácil de recuperar; de esta forma, si todo está construido muy fiablemente y es fácil de reparar, el fabricante obtiene un sistema muy eficaz, pero que aumenta considerablemente su valor. (Montoya, M. 2020)
             .cajon.color-acento-botones-3.p-4.mb-3
               p.mb-0 El factor disponibilidad de un equipo o sistema es la medida que indica cuánto tiempo está funcionando ese equipo o sistema operativo respecto de la duración total durante el periodo en el que se desea que funcione. Típicamente se expresa en porcentaje. (Luna, 2019)
-      .col-lg-4.col-2
+      .col-lg-4.col-10
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema04/t4-i7.png')
 
@@ -150,14 +150,14 @@
 
     p.mb-5 Se pueden presentar diferentes tipos de fallos, los cuales se aprecian en tres etapas:
 
-    .tarjeta.tarjeta--acento-botones.p-4.mb-5
+    .tarjeta.tarjeta--acento-botones.p-5.mb-5
       SlyderA(tipo='b')
         .row
           .col-md-7.mb-4.mb-md-0
             h2 Fallos iniciales
             p Se caracteriza por tener una elevada tasa de fallos que desciende rápidamente con el tiempo; estos fallos pueden deberse a diferentes razones como son instalaciones incorrectas, errores de diseño, desconocimiento por parte de operarios, equipos con defectos. (Montoya, M. 2020)
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema05/t5-i2.png',
@@ -168,7 +168,7 @@
             h2 Fallos Normales
             p En esta etapa, la tasa de errores es menor y constante; los fallos se producen, no por causas inherentes al equipo, sino por causas externas; estas pueden ser accidentes fortuitos, mala operación, condiciones que no son adecuadas. (Luna, 2019)
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema05/t5-i3.png',
@@ -179,7 +179,7 @@
             h2 Fallos de desgaste
             p Se caracteriza por una tasa de error creciente, los fallos se producen por desgaste natural de uso en un transcurso de tiempo.
 
-          .col-md-5
+          .col-lg-4.col-md-5
             figure
               img(
                 src='@/assets/template/tema05/t5-i4.png',
@@ -187,7 +187,7 @@
               )
 
     .row.mb-5
-      .col-lg-1.col-2
+      .col-lg-1.col-10
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema05/t5-i5.png')
       .col-lg-11.col-10
