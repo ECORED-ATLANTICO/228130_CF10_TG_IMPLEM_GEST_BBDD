@@ -51,7 +51,7 @@
 
     p.mb-5 El mantenimiento preventivo ofrece beneficios especiales, ya que puede usarse junto con otros tipos de sistemas de mantenimiento, algunos de los principales beneficios son:
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-3
       .col-lg-8.col-12
         h3.text-center.mb-5 Beneficios del mantenimiento preventivo
 
@@ -112,10 +112,8 @@
               .bloque-texto-g1__texto.p-4
                 p La disponibilidad de un equipo solo puede aumentarse disminuyendo el tiempo fuera de servicio, lo cual es posible con la mejora de los sistemas administrativos, los procedimientos, la selección, el entrenamiento, la motivación, la calidad y dotación de herramientas, el equipo de diagnóstico. Por lo tanto, se requieren de herramientas que permitan tomar decisiones rápidas y acertadas sobre sus principales recursos.
 
-    ul.lista-ul--color
-      li
-        i.fas.fa-square
-        h3.mb-0 Identificación de fallas
+    h3.titulo-tercero(data-aos="fade-right")
+      | Identificación de fallas
 
     .row.mb-5
       .col-lg-6.col-10

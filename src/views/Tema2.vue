@@ -237,8 +237,7 @@
             alt='alt'
           )
 
-    h3.mb-5
-      i.fas.fa-square.cac.me-3
+    h3.titulo-tercero(data-aos="fade-right")
       | La alta disponibilidad reduce la incidencia de fallos
 
     .row.mb-5

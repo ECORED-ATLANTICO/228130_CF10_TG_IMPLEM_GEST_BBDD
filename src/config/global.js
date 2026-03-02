@@ -28,10 +28,12 @@ export default {
     menu: [
       {
         nombreRuta: 'inicio',
+        icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
       {
         nombreRuta: 'introduccion',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -90,6 +92,11 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'download/CFA_10_228130_DU.pdf',
       },
       {
         icono: 'fas fa-download',

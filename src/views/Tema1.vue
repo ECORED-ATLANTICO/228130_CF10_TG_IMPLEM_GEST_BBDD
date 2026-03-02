@@ -198,9 +198,7 @@
                 src='@/assets/template/tema01/t1-i10.jpg',
                 alt='Texto que describa la imagen'
               )
-
-    h3.mb-5
-      i.fas.fa-square.cac.me-3
+    h3.titulo-tercero(data-aos="fade-right")
       i DynDNS o&nbsp;
       | DDNS
 
@@ -241,9 +239,8 @@
       .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c1.png', alt='')
       .col-lg-7
         ul.lista-ul--color
-          li
-            i.fas.fa-square
-            h3.mb-0 ¿Cómo configurar un servicio DynDNS?
+
+            h3.titulo-tercero(data-aos="fade-right") ¿Cómo configurar un servicio DynDNS?
         p Se presenta un ejemplo para implementar y configurar un servicio DynDNS, con un paso a paso para poder acceder a partir de un nombre de dominio al ordenador de nuestra casa, se va a usar el servicio DynDNS Service.
         ul.lista-ul--color
           li.d-flex
@@ -268,24 +265,6 @@
             i.fas.fa-check
             p.mb-0 Luego se da clic en la opción #[em Creating.]
         p Esto generará el DNS y mostrará la URL para así poderla abrir.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     p.mb-5 Protocolo SMTP, mejor llamado protocolo simple de transferencia de correo, es un protocolo TCP/IP que se utiliza para enviar y recibir correos electrónicos, este normalmente se utiliza con POP3.
@@ -437,9 +416,7 @@
               alt='Texto que describa la imagen'
             )
 
-    h3.mb-5
-      i.fas.fa-square.cac.me-3
-      p Protocolo POP3S
+    h3.titulo-tercero(data-aos="fade-right") Protocolo POP3S
 
     p Protocolo de oficina de correo, se utiliza para obtener mensajes de correo electrónico de clientes locales.
     br
