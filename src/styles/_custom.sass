@@ -2,44 +2,172 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 61%
+    right: 57%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 6%
+    right: 45%
+  &-3
+    animation: float1 2.2s ease-in-out infinite alternate
+    position: absolute
+    top: 29%
+    right: 84%
+  &-4
+    animation: float1 2.2s ease-in-out infinite alternate
+    position: absolute
+    top: 48%
+    right: 20%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+.color-acento-beige
+  background: #FFECC1
+
+.color-icon-check
+  color: $color-acento-contenido
+
+.tarjeta--acento-botones
+  background-color: #F1F8FF
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-acento-botones 
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+.slyder-a__bullets__item
+  background-color: #9DEEFE
+  border-color: #9DEEFE
+.cac
+  color: $color-acento-contenido
+
+.acordion__accion__btn--b
+  background: $color-acento-contenido
+
+.acordion__accion__btn--a
+  background-color: $color-primario
+  color: white
+
+.tarjeta.acordeonA
+  background-color: #F6F6F6
+
+.acordion__activo
+  background-color: #E8E8E8
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  text-align: center
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-acento-botones
   
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
-.banner-principal .tarjeta
-  background-position: left 50% !important
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.img-infografica__item__numero
+  color: black !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.card-t1
+  background: #004E96
+  border-radius: 5px
+  color: white
 
-figcaption
-  font-weight: normal
+.color-tercero
+  background: #FFE4A9
 
-.banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+.color-activo
+  background: #F1F8FF !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+.color-icon-circle
+  color: $color-acento-botones
+  font-size: 5px
+
+//.bloque-texto-g.color-tercero,.bloque-texto-g.color-secundario
+  .bloque-texto-g__texto
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      width: calc( 100% + 2rem )
+      height: calc( 100% + 2rem )
+      border: dashed $color-primario
+      top: -1rem
+      left: -1rem
+
+.h-21
+  height: 21em
+
+.slyder-a__btn--atrs,.slyder-a__btn--sigt
+  opacity: 1
+
+.linea-tiempo-d__item__number
+  color: black !important
+
+.tarjeta--gris
+  background-color: #ECF2F9
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.color-adicional-2
+  background: #F1F8FF
+
+.color-acento-contenido-2
+  background-color: #FFF4DA
+  &::before
+    background: #FFB30B
+
+.color-acento-botones-3
+  background-color: #D9FAFF
+  &::before
+    background: #00DEFC
+
+.acordion__activo
+  background-color: #E8E8E8 !important
+
+.tarjeta--griss
+  background-color: #F6F6F6
+
+.crd_hover_txt .crd_hover_txt--body
+  background-color: #4dd0e1fa
+  color: black
+
+.contenedor-dashed
+  border: 2px dashed #004B89
+  position: relative
+
+.bloque-texto-g1__texto 
+    position: relative
+    width: 100%
+    background-color: rgba(255, 255, 255, 0.95)
+
+.bloque-texto-g1__img 
+    width: 50%
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    background-position: center
+    background-size: cover
+    width: 60%
+

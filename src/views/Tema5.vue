@@ -5,14 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Tema 5
+      h1 Identificación de fallas
 
+    
 
 </template>
 
 <script>
 export default {
-  name: 'Tema5',
+  name: 'Tema3',
   data: () => ({
     // variables de vue
   }),
