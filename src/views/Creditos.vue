@@ -7,7 +7,7 @@
         .col-md-10.mb-4.mb-md-0
           .tarjeta.p-3.text-center.h-100
             h2 Elaborado por:
-            img.mx-auto.d-inline-block.mb-3(src='@/assets/template/logo_IE.png' style='width:80%;max-width:613px')
+            img.mx-auto.d-inline-block.mb-3(src='@/assets/template/logo_IE.png' style='width:80%;max-width:613px' alt="Elaborado por Innovative Education")
 
         //.col.mb-4.mb-md-0
           .tarjeta.p-3.text-center.h-100
@@ -26,7 +26,7 @@
               | y 
               a(href="https://www.flaticon.com/" target="_blank") www.flaticon.com
         .col-md-6
-          .tarjeta.credito.p-3.text-center.h-100
+          .tarjeta.credito.p-3.text-center.h-10
             img.d-inline-block(src="@/assets/template/creditos-cc.svg" style="width: 70px;")
             p.mb-0 Licencia creative commons CC BY-NC-SA
               br
