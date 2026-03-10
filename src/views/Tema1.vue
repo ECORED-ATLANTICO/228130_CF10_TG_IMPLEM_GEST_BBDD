@@ -71,7 +71,7 @@
               li
                 i.fas.fa-check.color-icon-check
                 |
-                | Acceso a contenido geo bloqueado.
+                | Acceso a contenido geobloqueado.
               br
               li
                 i.fas.fa-check.color-icon-check
@@ -108,7 +108,7 @@
                   )
               .col-lg-7.col-6
                 h4.text-white Prueba DNS
-                p.mb-0.text-white De clic en el botón descargar para visualizar un ejemplo de prueba DNS.
+                p.mb-0.text-white De clic en el botón descargar para visualizar un ejemplo de prueba DNS en la carpeta Anexos.
               .col-lg-3.col-4
                 a.boton.boton--b.color-acento-contenido(
                   :href='obtenerLink("/downloads/Pruebas_del_DNS.pdf")',
