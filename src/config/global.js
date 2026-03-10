@@ -199,7 +199,7 @@ export default {
     {
       referencia:
         'Abad, A (2018). <em>Seguridad y alta disponibilidad.</em> España: España, 2018.',
-      link: 'https://www.garceta.es/catalogo/libro.php?ISBN=978-84-1728-930-0',
+      link: '',
     },
     {
       referencia:
@@ -225,14 +225,12 @@ export default {
     {
       referencia:
         'Philippe, F. (2010). <em>Windows Server 2008 : Los servicios de Red TCP/IP.</em> Barcelona: Ediciones ENI. ',
-      link:
-        'https://www.casadellibro.com.co/libro-windows-server-2008-los-servicios-de-red-tcpip/9782746056473/1775032',
+      link: '',
     },
     {
       referencia:
         'Sánchez, M., Plata, R., & Martínez, J. (2020). <em>Redes de computadores.</em> Universidad de Alcalá, servicio de publicaciones.',
-      link:
-        'https://publicaciones.uah.es/.galleries/Galeria-Servicio-de-Publicaciones/PDFs-Novedades/redes-.pdf',
+      link: '',
     },
     {
       referencia:
