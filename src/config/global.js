@@ -209,7 +209,7 @@ export default {
     {
       referencia:
         'Mago, M. & Rocha, S. (2021). Diseño e implementación del plan de mantenimiento preventivo de los equipos de la empresa granitos y mármoles acabados SAS. <em>Revista ciencia y poder aéreo, 16(2).</em> ',
-      link: 'https://www.redalyc.org/journal/6735/673571919007/html/',
+      link: '',
     },
     {
       referencia:
@@ -220,7 +220,7 @@ export default {
     {
       referencia:
         'Montoya, M., Arango, J., & Rosero, S. (2020). Programación de mantenimiento preventivo usando algoritmos genéticos. <em>Lampsakos, 23</em>, p. 37-44.  ',
-      link: 'https://www.redalyc.org/journal/6139/613964510003/html/',
+      link: '',
     },
     {
       referencia:
